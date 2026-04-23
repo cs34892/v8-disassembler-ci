@@ -6,7 +6,7 @@ on:
       v8_branch:
         description: 'V8 Version / Branch'
         required: true
-        default: '13.8.258.18'
+        default: '12.2.281.27'
   push:
     branches:
       - main
