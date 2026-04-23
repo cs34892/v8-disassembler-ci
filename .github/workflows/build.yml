@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: windows-latest
     env:
-      V8_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.v8_branch || '13.8.258.18' }}
+      V8_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.v8_branch || '12.2.281.27' }}
       DEPOT_TOOLS_WIN_TOOLCHAIN: 0
 
     steps:
